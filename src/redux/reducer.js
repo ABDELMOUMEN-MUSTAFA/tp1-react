@@ -4,7 +4,8 @@ export default function reducer(
       id: 1,
       name: "Playstation 4 Pro",
       price: 450,
-      description: "React Hook useEffect has a missing dependency",
+      description:
+        "Incredible games & non-stop entertainment. The PS4 console, delivering awesome gaming power.",
     },
   ],
   action

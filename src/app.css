@@ -1,0 +1,84 @@
+body {
+  background-color: #221e1e !important;
+  font-family: "Fira Code" !important;
+}
+
+.product {
+  background-color: #3c3a3a;
+  color: #c9c9c8;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.product > .btn-delete {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background-color: #bc0d0d;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.product > .btn-edit {
+  position: absolute;
+  right: -10px;
+  top: 25px;
+  background-color: #0936a5;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+}
+
+.product > .btn-edit:hover {
+  background-color: #0e48db;
+  cursor: pointer;
+}
+
+.product > .btn-delete:hover {
+  background-color: rgb(224, 15, 15);
+  cursor: pointer;
+}
+
+.btn-submit {
+  outline: none;
+  border: none;
+  background-color: #3c3a3a;
+  color: #c9c9c8;
+  transition: all 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #4c4a4a;
+  cursor: pointer;
+}
+
+.price {
+  font-weight: bolder;
+}
+
+.product-form {
+  color: #c9c9c8;
+  background-color: #606060;
+}
+
+.input-field {
+  background-color: #c9c9c8;
+  height: 40px;
+  outline-color: #fff;
+  transition: all 0.5s;
+  border: none;
+}
+
+.input-field:focus {
+  outline-color: #fff;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}

@@ -42,9 +42,16 @@ const EditProduct = ({ setAlert }) => {
 
   if (!product) {
     return (
-      <div className="alert alert-danger text-center">
-        The Product With <strong>#{id}</strong> Not Found
-      </div>
+      <>
+        <div className="my-4">
+          <Link to="/" className="btn btn-sm btn-secondary">
+            <i className="fa fa-arrow-left"></i>
+          </Link>
+        </div>
+        <div className="alert alert-danger text-center">
+          The Product With <strong>#{id}</strong> Not Found
+        </div>
+      </>
     );
   }
 
